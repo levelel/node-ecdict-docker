@@ -19,6 +19,9 @@ RUN npm install
 # 复制项目文件到工作目录
 COPY . .
 
+# 指定卷，用户可以在运行容器时指定卷的具体路径
+VOLUME /usr/src/app/db
+
 # 暴露容器端口
 EXPOSE 17830
 

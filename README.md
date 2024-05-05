@@ -19,6 +19,10 @@ node server.js
 ```bash
 docker run -p 17830:17830 --restart=yes -d levelel/node-ecdict
 ```
+（可选）使用自己的字典文件`ecdict.sqlite`：替换`/path/to/localfolder`为自己的文件夹，并把自己的字典文件重命名为`ecdict.sqlite`。
+```bash
+docker run -p 17830:17830 -v /path/to/localfolder:/usr/src/app/db --restart=yes -d levelel/node-ecdict
+```
 
 打开浏览器，访问：
 ```html
