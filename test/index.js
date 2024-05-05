@@ -70,3 +70,19 @@ describe('node-ecdict', () => {
     });
   })
 })
+
+search('example')
+  .then(result => {
+    console.log('Search result:', result);
+  })
+  .catch(error => {
+    console.error('Search error:', error);
+  });
+
+batchSearch(['example', 'test'])
+  .then(result => {
+    console.log('Batch search result:', result);
+  })
+  .catch(error => {
+    console.error('Batch search error:', error);
+  });

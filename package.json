@@ -15,20 +15,31 @@
     "Translation",
     "Dictionary"
   ],
-  "author": "HiuYanChong<sysu_se_zxx@163.com>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/HiuYanChong/node-ecdict.git"
-  },
+  "author": "levelel",
   "license": "MIT",
   "dependencies": {
-    "sequelize": "^4.42.0",
-    "sqlite3": "^4.0.4"
+    "express": "^4.19.2",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
   },
   "devDependencies": {
     "codecov": "^3.1.0",
     "eslint": "^5.10.0",
     "istanbul": "^0.4.5",
-    "mocha": "^5.2.0"
+    "mocha": "^10.4.0"
+  },
+  "credits": {
+    "node-ecdict": {
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/HiuYanChong/node-ecdict"
+      }
+    },
+    "ECDICT": {
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/skywind3000/ECDICT"
+      }
+    }
   }
 }

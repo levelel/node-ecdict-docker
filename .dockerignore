@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log
+yarn.lock    # 如果你使用 yarn
+package-lock.json  # 如果你使用 npm
+Dockerfile
+.git
+.gitignore
+.env
